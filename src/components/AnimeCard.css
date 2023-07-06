@@ -1,0 +1,45 @@
+.anime-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  margin: 10px auto;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-card:hover {
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+}
+
+.anime-card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.anime-card .content {
+  padding: 10px;
+}
+
+.anime-card .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.anime-card .score {
+  color: #ff7f50;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.anime-card .synopsis {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+}

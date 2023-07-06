@@ -1,0 +1,46 @@
+.manga-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    margin: 10px auto;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .manga-card:hover {
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+  }
+  
+  .manga-card img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .manga-card .content {
+    padding: 10px;
+  }
+  
+  .manga-card .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .manga-card .score {
+    color: #ff7f50;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .manga-card .synopsis {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
